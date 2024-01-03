@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url('background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+
+
+}
+
+
+#container {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#container #InsideContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    position: absolute;
+    top: 23%;
+    left: 31%;
+    border: solid;
+    padding: 40px 130px;
+    border-radius: 15px;
+    border-width: 1px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+    border-color: white;
+    margin: 0;
+  
+
+
+
+}
+
+
+#InsideContainer #HeightSquared {
+    color: black;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+
+#InsideContainer #Weight {
+    color: black;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+
+
+
+
+}
+
+#InsideContainer #CalculateBMI {
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: forestgreen;
+    border-radius: 15px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+
+
+
+}
+
+
+#InsideContainer #CalculateBMI:hover{
+    background-color: darkgreen;
+
+}
+
+
+#BMI {
+    font-size:medium;
+
+    color: white;
+}
+
